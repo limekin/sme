@@ -41,7 +41,7 @@ body{
 }
 .banner
 {
-    height: 700px;
+   height: 700px;
    background-color: #E5E5E5;
 }
 .stud
@@ -91,7 +91,7 @@ transform: translateY(-50%)
 }
 .icon
 {
-padding: 10px 0;
+    padding: 10px 0;
 }
 .iconcontainer .material-icons{
     font-size: 50px;
@@ -99,7 +99,7 @@ padding: 10px 0;
 }
 .iconcontainer
 {
-color: #E5E5E5;
+    color: #E5E5E5;
 }
 
 .card {
@@ -225,3 +225,9 @@ color: #E5E5E5;
   .curvedetails p {
       font-size: .9em;
   }
+
+@media (max-width: 360px) {
+    .s {
+        height: 1200px;
+    }
+}

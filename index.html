@@ -10,7 +10,9 @@
 			integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"crossorigin="anonymous">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Karla|Roboto:500" rel="stylesheet">    
+		<link href="https://fonts.googleapis.com/css?family=Karla|Roboto:500" rel="stylesheet">    
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 	</head>
 	<body>
 		<header>
@@ -66,14 +68,14 @@
 		<div class="banner">
       <div class='container'>
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 col-sm-12">
             <div class='banner-content'>
               <img src="images/banner.svg" class="stud" alt="">
             </div>
           </div>
-          <div class="col-md-6 ">
+          <div class="col-md-6 col-sm-12">
             <div class='banner-content'>
-              <div class="bannertext">
+              <div class="bannertext" >
                 <h1>Small to Medium Size</h1>
                 <h1>Enterprise (SME) Brokers</h1>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
@@ -87,7 +89,7 @@
         <div class='container'>
           <div class="row">
             <div class="col-md-12 iconcolor">
-              <div class="container ">
+              <div class="container">
                 <div class="iconcontainer text-center">
                   <div class="icon">
                     <i class="material-icons">
@@ -230,7 +232,7 @@
 			<div class="footer">
 				<div class="row">
 					<div class="col-md-3 text-center">
-						<img style='width: 100%' src="images/logo.svg" alt="">
+						<img style='width: 150px' src="images/logo.svg" alt="">
 						<p style='text-align: justify'>Lorem Ipsum is simply dummy text of the printing
 							and typesetting industry. Lorem Ipsum has been 
               the industry's standard dummy.
@@ -238,7 +240,7 @@
 							the industry's standard dummy 
 						</p>
 					</div>
-					<div class="col-md-8 offset-md-1">
+					<div class="col-md-8 offset-md-1" style='padding-top: 80px'>
 						<div class="row">
 							<div class="col-md-4">
 								<ul style="list-style-type:none">
@@ -278,5 +280,9 @@
 		</div>
 		<script src='js/jquery.min.js'></script>
 		<script src='js/bootstrap.min.js'></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
 	</body>
 </html>
